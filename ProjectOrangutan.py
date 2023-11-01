@@ -9,7 +9,14 @@ from time import sleep
 def gasLevelGauge():
     gasLevelList = ["Empty","Low","Quarter Tank", "Half Tank","Three Quarter Tank","BIBBLE","Full Tank"]
     currentGasLevel = random.choice(gasLevelList)
-    return currentGasLevel
+
+
+# Function with a list of GasStations
+def listOfGasStations():
+    gasStations = ["Shell","Speedway","Exxon","Meijer","Costco","Marathon","BP","Circle K","Wesco","⛽"]
+    gasStationsNearby = random.choice(gasStations)
+    return gasStationsNearby
+
 
 # Function will call the gasLevelGauge to determine gas level and then find a close gas station if low
 def gasLevelAlert():
