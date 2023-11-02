@@ -26,4 +26,4 @@ while x != 20:
     if ellipsis == 4:
         ellipsis = 0
     if x == 20
-        print("n\n\Operating System Loaded" + "\nRetina Scanned, Acess Granted!")
+        print("n\n\Operating System Loaded" + "\nRetina Scanned, Access Granted!")
