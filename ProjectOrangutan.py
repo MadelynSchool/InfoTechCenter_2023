@@ -41,7 +41,4 @@ def vehicleResponseSystem():
         print("Weather is cloudy")
     print("\nDrive safe🚗🚗")
 
-
-
-
 vehicleResponseSystem()
