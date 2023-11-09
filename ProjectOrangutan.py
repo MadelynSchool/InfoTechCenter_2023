@@ -9,6 +9,7 @@ import sys
 import random
 from time import sleep
 
+
 TimeToSleep = 2
 
 print("\n\nWelcome - InfoTech Center 2023")
@@ -28,9 +29,8 @@ while x != 20:
         ellipsis = 0
     if x == 20:
         print("\n\nOperating System Loaded" + "\nRetina Scanned, Access Granted!")
-
-print("\n\nChecking gasoline tank\n\n")
-
+print("\n*************************************")
+print("\nChecking gasoline levels\n")
 
 # Function that lists Gas Stations, randomly choosing one, and Return its value
 def gasLevelGauge():
@@ -68,14 +68,8 @@ def gasLevelAlert():
 
 gasLevelAlert()
 
-print("\nWeather Branch\n")
-
-
-
-#Import Libraries here
-import random
-from time import sleep
-
+print("\n*************************************")
+print("\nChecking Current Weather Conditions")
 #Create a function randomly choosing the weather from a list
 def weather():
     weatherForecast = ["Sunny","Snowy","Rainy","Blizzard","Foggy","Windy","Icy","Cloudy","Thunderstorm"]
@@ -91,7 +85,7 @@ def vehicleResponseSystem():
         print("\nNational Weather Service has updated your Alarm by 30 minutes because of the forecast of", weatherAlert)
         print("Vehicle Response System engaged, you can drive a maximum of 50 MPH")
     elif weatherAlert =="Blizzard":
-        print("\nNational Weather Service has updated your Alarm by 45 mintues because of the forecast of", weatherAlert)
+        print("\nNational Weather Service has updated your Alarm by 45 minutes because of the forecast of", weatherAlert)
         print("Vehicle Response System engaged, you can drive a maximum of 30 MPH")
     elif weatherAlert =="Rainy":
         print("\nNational Weather Service has updated your Alarm by 5 minutes because of the forecast of", weatherAlert)
