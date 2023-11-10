@@ -25,5 +25,5 @@ while x != 20:
     time.sleep(.5)
     if ellipsis == 4:
         ellipsis = 0
-    if x == 20
-        print("n\n\Operating System Loaded" + "\nRetina Scanned, Access Granted!")
+    if x == 20:
+        print("\n\nOperating System Loaded" + "\nRetina Scanned, Access Granted!")
